@@ -7,4 +7,6 @@ urlpatterns = [
     path('join/', views.join, name='join'),
     path('logout/', views.logout, name='logout'),
     path('board/', views.board, name='board'),
+    path('inedex/', views.board, name='mypage'),
+
 ]

@@ -10,4 +10,5 @@ urlpatterns = [
     path('passwordUpdate/', views.passwordUpdate, name='passwordUpdate'),
     path('userinfoUpdate/', views.userinfoUpdate, name='userinfoUpdate'),
     path('mypageadmin/', views.mypageAdmin, name='mypageAdmin')
+
 ]
